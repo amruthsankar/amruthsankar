@@ -24,7 +24,7 @@ export const education = [
   {
     degree: 'B.Tech in Electronics & Communication Engineering',
     place: 'Rajiv Gandhi Institute of Technology (RIT), Kottayam',
-    period: 'Second Year · In Progress',
+    period: 'First Year · In Progress',
     detail: 'Focused on VLSI, embedded systems and programming fundamentals.',
     status: 'current' as const,
   },
