@@ -1,7 +1,7 @@
 # Hi, I'm Amrith Shankar 👋
 **Electronics & Communication Engineering student**
 *
-🚀 **Portfolio:** [Visit My Portfolio Website](https://amruthsankar.vercel.app/)
+*🚀 **Portfolio:** [Visit My Portfolio Website](https://amruthsankar.vercel.app/)
 ### Tech Stack
 * **Languages:** c#, C++, HTML5, Python, CSS
 * **Tools & Databases:** Git, GitHub, PostgreSQL, Vercel, Linux 
