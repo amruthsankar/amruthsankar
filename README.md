@@ -1,18 +1,16 @@
 # Hi, I'm Amrith Shankar 👋
 **Electronics & Communication Engineering student**
-*
-*🚀 **Portfolio:** [Visit My Portfolio Website](https://amruthsankar.vercel.app/)
+🚀 **Portfolio:** [Visit My Portfolio Website](https://amruthsankar.vercel.app/)
 ### Tech Stack
 * **Languages:** c#, C++, HTML5, Python, CSS
 * **Tools & Databases:** Git, GitHub, PostgreSQL, Vercel, Linux 
 * ### Featured Work
 * **[Project Name 1](comming soon...)**
-*
+
 * ### Connect With Me
 * **Email:** amruthsankarrp@gmail.com
 * **LinkedIn:** (https://linkedin.com/in/amruthsankar)
-* 
-
+  
 <!--
 **amruthsankar/amruthsankar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
