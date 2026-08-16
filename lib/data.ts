@@ -91,7 +91,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     slug: 'comming soon',
-    title: 'Project',
+    title: 'Project #1',
     description:
       'comming soon...',
     category: 'Electronics / VLSI',
@@ -100,7 +100,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'comming soon',
-    title: 'Embedded Sensor Node',
+    title: 'Project #2',
     description:
       'comming soon...',
     category: 'Python / C Software',
@@ -109,7 +109,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'comming soon',
-    title: 'Signal Analysis Toolkit',
+    title: 'Project #3',
     description:
       'comming soon...',
     category: 'Python / C Software',
@@ -118,7 +118,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'comming soon',
-    title: 'Research: Efficient IoT Communication',
+    title: 'Project #4',
     description:
       'comming soon...',
     category: 'Academic Research',
@@ -127,7 +127,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'comming soon',
-    title: 'FPGA Image Filtering',
+    title: 'Project #5',
     description:
       'comming soon...',
     category: 'Electronics / VLSI',
@@ -136,7 +136,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'comming soon',
-    title: 'Algorithm Visualizer',
+    title: 'Project #6',
     description:
       'comming soon....',
     category: 'Python / C Software',
