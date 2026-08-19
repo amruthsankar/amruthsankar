@@ -98,6 +98,7 @@ export const projects: Project[] = [
     category: 'Embedded Systems',
     status: 'In Progress',
     tags: ['Arduino', 'HC-SR04 Ultrasonic Sensor', 'Embedded Systems', 'C++'],
+    pdfUrl: '/docs/smart-blind-stick-report.pdf',
   },
   {
     slug: 'comming soon',
