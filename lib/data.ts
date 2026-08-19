@@ -83,7 +83,7 @@ export type Project = {
   slug: string
   title: string
   description: string
-  category: 'Embedded Systems' | 'Electronics / VLSI' | 'Python / C Software' | 'Academic Research'
+  category: 'Electronics / VLSI' | 'Python / C Software' | 'Academic Research'
   status: 'Upcoming' | 'In Progress' | 'Planned'
   tags: string[]
 }
@@ -94,7 +94,7 @@ export const projects: Project[] = [
     title: 'Smart Assistive Blind Stick',
     description:
       'An Arduino based navigation aid using ultrasonic sensing and haptic feedback to detect low hanging and near field obstacles for visually impaired users.',
-    category: 'Embedded Systems',
+    category: 'Electronics / VLSI',
     status: 'In Progress',
     tags: ['Arduino', 'HC-SR04 Ultrasonic Sensor', 'Embedded Systems', 'C++'],
   },
