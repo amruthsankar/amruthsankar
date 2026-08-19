@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 }
 
 const categories = [
+  'Embedded Systems',
   'Electronics / VLSI',
   'Python / C Software',
   'Academic Research',
