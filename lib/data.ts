@@ -90,7 +90,7 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: 'comming soon',
+    slug: 'smart-blind-stick',
     title: 'Smart Assistive Blind Stick',
     description:
       'An Arduino based navigation aid using ultrasonic sensing and haptic feedback to detect low hanging and near field obstacles for visually impaired users.',
