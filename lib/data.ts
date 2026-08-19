@@ -91,12 +91,12 @@ export type Project = {
 export const projects: Project[] = [
   {
     slug: 'comming soon',
-    title: 'Project #1',
+    title: 'Smart Assistive Blind Stick',
     description:
-      'comming soon...',
+      'An Arduino based navigation aid using ultrasonic sensing and haptic feedback to detect low hanging and near field obstacles for visually impaired users.',
     category: 'Electronics / VLSI',
-    status: 'Upcoming',
-    tags: ['VLSI', 'Digital Design', 'Verilog'],
+    status: 'In Progress',
+    tags: ['Arduino', 'HC-SR04 Ultrasonic Sensor', 'Embedded Systems', 'C++'],
   },
   {
     slug: 'comming soon',
