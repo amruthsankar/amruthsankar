@@ -25,3 +25,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+**About my portfolio**
+
+###for editing 
+ lib -> data -> editing public details 
