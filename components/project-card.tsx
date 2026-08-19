@@ -1,4 +1,4 @@
-import { ArrowUpRight, Cpu, Code2, FileText } from 'lucide-react'
+import { ArrowUpRight, Cpu, Code2, FileText, CircuitBoard } from 'lucide-react'
 import type { Project } from '@/lib/data'
 import { cn } from '@/lib/utils'
 
@@ -6,6 +6,7 @@ const categoryIcon = {
   'Electronics / VLSI': Cpu,
   'Python / C Software': Code2,
   'Academic Research': FileText,
+  'Embedded Systems': CircuitBoard,
 } as const
 
 const statusStyle = {
