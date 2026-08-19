@@ -86,6 +86,7 @@ export type Project = {
   category: 'Embedded Systems' | 'Electronics / VLSI' | 'Python / C Software' | 'Academic Research'
   status: 'Upcoming' | 'In Progress' | 'Planned'
   tags: string[]
+  pdfUrl?: string
 }
 
 export const projects: Project[] = [
