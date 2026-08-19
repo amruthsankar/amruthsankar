@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { ArrowUpRight, Cpu, Code2, FileText, CircuitBoard } from 'lucide-react'
 import type { Project } from '@/lib/data'
 import { cn } from '@/lib/utils'
@@ -17,8 +18,18 @@ const statusStyle = {
 
 export function ProjectCard({ project }: { project: Project }) {
   const Icon = categoryIcon[project.category]
+  
+  // Check if a PDF link is available in project data
+  const hasPdf = Boolean(project.pdfUrl)
+  const targetHref = project.pdfUrl ? project.pdfUrl : `/projects/${project.slug}`
+
   return (
-    <article className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-border bg-card p-6 transition-all duration-300 hover:-translate-y-1 hover:border-primary/50">
+    <Link
+      href={targetHref}
+      target={hasPdf ? '_blank' : '_self'}
+      rel={hasPdf ? 'noopener noreferrer' : undefined}
+      className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-border bg-card p-6 transition-all duration-300 hover:-translate-y-1 hover:border-primary/50"
+    >
       <div className="absolute right-0 top-0 size-32 -translate-y-1/2 translate-x-1/2 rounded-full bg-primary/10 opacity-0 blur-2xl transition-opacity duration-300 group-hover:opacity-100" />
 
       <div className="flex items-center justify-between">
@@ -57,9 +68,9 @@ export function ProjectCard({ project }: { project: Project }) {
       </div>
 
       <div className="mt-5 flex items-center gap-1 text-sm font-medium text-primary opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-        Details coming soon
+        {hasPdf ? 'View Documentation (PDF)' : 'Details coming soon'}
         <ArrowUpRight className="size-4" />
       </div>
-    </article>
+    </Link>
   )
 }
