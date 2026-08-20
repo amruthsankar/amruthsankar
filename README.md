@@ -29,5 +29,5 @@ Here are some ideas to get you started:
 
 **About my portfolio**
 
-###for editing 
+### for editing 
  lib -> data -> editing public details 
