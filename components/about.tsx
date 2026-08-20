@@ -30,7 +30,7 @@ export function About() {
 
             <div className="grid grid-cols-3 gap-3 pt-2">
               {[
-                { icon: GraduationCap, label: 'B.Tech ECE', sub: '2nd Year' },
+                { icon: GraduationCap, label: 'B.Tech ECE', sub: '1st Year' },
                 { icon: Award, label: '97.25%', sub: 'HSE Score' },
                 { icon: Users, label: 'NSS Lead', sub: 'Volunteer' },
               ].map((item) => (
